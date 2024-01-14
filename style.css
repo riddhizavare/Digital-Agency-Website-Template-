@@ -1,0 +1,71 @@
+/* Navbar */
+.logo {
+    font-family: 'Lemon', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik Maps', system-ui;
+    font-size: xx-large;
+    color: rgb(42, 86, 88);
+}
+.nav-link:hover {
+    letter-spacing: 0.1rem;
+    font-family: 'Lemon', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik Maps', system-ui;
+    font-size: xx-large;
+    color: rgb(20, 40, 41);
+}
+
+/* Home */
+.btn:hover {
+    letter-spacing: 0.2rem;
+}
+
+/* Service */
+.scard {
+    width: 19rem;
+    /* border: 2px solid rgb(85, 80, 80); */
+    background-color: lightsteelblue;
+    border-radius: 50px;
+}
+.scard:hover {
+    border: none;
+    width: 22rem;
+    background-color: rgb(151, 165, 165);
+    box-shadow: 10px 10px 20px cadetblue;
+    cursor: pointer;
+
+}
+
+/* Contact */
+.contact {
+    background-image: url(./images/contact1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+}
+
+/* Footer */
+.fcard {
+    background-color: darkgray;
+    border: none;
+}
+.icon {
+    font-size: xx-large;
+    color: black;
+}
+#fa:hover {
+    color: blue;
+    font-size: 20px;
+}
+#wh:hover {
+    color: darkgreen;
+    font-size: 20px;
+}
+#li:hover {
+    color: blue;
+    font-size: 20px;
+}
+#in:hover {
+    color: rgb(171, 38, 60);
+    font-size: 20px;
+}
